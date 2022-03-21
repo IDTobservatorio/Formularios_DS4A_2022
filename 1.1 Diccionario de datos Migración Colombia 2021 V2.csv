@@ -1,0 +1,23 @@
+﻿Columna;Descripción;Tipo dato
+Motivo Viaje;Motivación del viajero que arriba a Bogotá;string
+Centro Regional;Centro Regional de Migración colombia que realiza el reporte de información;string
+Puesto Migratorio;Puesto Migratorio de Migración colombia que realiza el reporte de información;string
+Tipo Transporte;Tipo de Transporte utilizado por el viajero para ingresar al país;string
+Ciudad Hospedaje;Ciudad de destino que manifiesta el extranjero se hospedará;string
+Entrada Salida;Tipo de reporte de migración colombia;string
+Meses;Mes de reporte de la información;string
+País Nacionalidad;Nacionalidad reportada por el viajero;string
+Rango Edad;Clasificación de la edad del extranjero en uno de 7 rangos definidos;string
+Colombiano/Extranjero;Variable dicotomica que toma los valores Colombiano o extranjero;string
+Departamento Hospedaje;Departamento de destino que manifiesta el extranjero se hospedará;string
+Region Nacionalidad;Clasificación que permite identificar la nacionalidad del turista en una region del planeta;string
+Año;Año de reporte de entrada/salida del viajero del país;integer
+Categoría Migratoria;Condición migratoria del viajero;string
+Departamento;Departamento de ubicación del puesto de control migratorio;string
+País Destino Procedencia;País que reporta el anterior control migratorio del viajero;string
+Region Destino;Región que reporta el anterior control migratorio del viajero;string
+Sexo;Generó del viajero;string
+Fac Exp;Factor de expansión/ Total de viajeros;integer
+Fac Exp Femenino;Factor de expansión mujeres/ Total de viajeros mujeres;integer
+Fac Exp Masculino;Factor de expansión hombres/ Total de viajeros hombres;integer
+Número de registros;Total de registros de la configuración de caracteristicas del viajero en la base de datos;integer

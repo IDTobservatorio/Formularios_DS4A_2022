@@ -1,0 +1,10 @@
+﻿7.1 Diccionario Base de Atractivos turísticos (2021);;
+variable;descripción;tipo variable
+ID;ID del atractivo;integer
+Codigo;Codigo del Atractivo;string
+Nombre;Nombre del atractivo;string
+Direccion Atractivo;Dirección del atractivo;string
+Tipo de Patrimonio;Tipo de patrimonio;string
+Nombre Propietario;Nombre de la entidad o  institución a cargo del atractivo;string
+Latitud;Georreferenciación del Atractivo;float
+Longitud;Georreferenciación del Atractivo;float

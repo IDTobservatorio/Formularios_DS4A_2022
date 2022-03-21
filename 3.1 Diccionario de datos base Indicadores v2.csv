@@ -1,0 +1,15 @@
+﻿3.1 Diccionario de datos base Indicadores;;
+;;
+Generalidades;Base de datos que contiene los diferentes indicadores de interes manejados por el Observatorio de Turismo de Botogá.;
+;;
+;;
+Variables Base de Datos;;
+;;
+Variable;Descripción;tipo dato
+TEMA;Agregación más alta del Indicador;string
+SUBTEMA;Subdivisión dentro de cada tema;string
+VARIABLE;División que incluye variables o topicos dentro del subtema;string
+CLASE;Categorias de las variables y/o variables dentro de los topicos;string
+Fuente;Corresponde con el fuente de la información del indicador;string
+AÑO;Año para el cual se tiene información del indicador;integer
+Valor;Valor del indicador;float

@@ -1,0 +1,75 @@
+﻿Variable;Pregunta-resumen;Pregunta;Especificación pregunta;Tipo Variable 
+directorio;vivienda;vivienda;;Integer
+secuencia_p;orden de los hogares en la vivienda;orden de los hogares en la vivienda;;Integer
+orden;orden de individuos dentro del hogar;orden de individuos dentro del hogar;;Integer
+P6020;Sexo;Sexo ;;String
+P6040 ;Edad;¿cuántos años  cumplidos tiene...? (si es menor de 1 año, escriba 00);;Integer
+P6090;Afiliado al régimen de salud;¿... Está afiliado,  es cotizante o es beneficiario de alguna entidad de seguridad social  en salud?;;String
+P6100;Regimen de salud  al cual está afiliado;4. ¿A cuál de los siguientes regímenes de seguridad social en salud está afiliado: a. Contributivo (EPS)? b. Especial ? (Fuerzas Armadas, Ecopetrol, universidades públicas) c. Subsidiado? (EPS-S) d. No sabe, no informa;;String
+P6220;Nivel de escolaridad;¿cuál  es el título o diploma de mayor nivel educativo que usted ha recibido?;;String
+dpto;Departamento;;;Integer
+FacExp;Factor de expansión;;;Float
+area;area;"Area 05 Medellín 08 Barranquilla 11 Bogotá, D.C 13
+Cartagena 17 Manizales 23 Montería 50 Villavicencio
+52 Pasto 54 Cúcuta 66 Pereira 68 Bucaramanga 73
+Ibagué 76 Cali";;Integer
+P6440;Tiene contrato;¿para realizar este trabajo, tiene usted algún  tipo de contrato?;;String
+P6460;Contrato indefinido;"¿el contrato de trabajo de
+... Es a término indefinido o a término fijo?";;String
+P6400;Modalidad de contratación-Vinculación directa;La empresa o persona que contrato a ..., ¿es  la misma empresa donde trabaja o presta sus  servicios?;;String
+P6424S1;Derecho a vacaciones;Vacaciones con sueldo?;;String
+P6424S2;Derecho a prima;Prima de navidad?;;String
+P6424S3;Derecho a cesantías;Derecho de cesantia?;;String
+P6480 ;Medio de búsqueda del trabajo;;;String
+P6500 ;Ingresos;"Antes de descuentos
+¿cuánto ganó  ... El mes pasado en este empleo?";;Integer
+P6510S1;Ingresos por horas extras;El mes  pasado recibió ingresos por concepto de horas extras?;¿cuánto recibió?;Integer
+P6585S1;Subsidio de alimentación;Auxilio o subsidio de alimentación?;;String
+P6585S1A1;Monto Subsidio de alimentación;¿cuánto? (si recibió  pero  no sabe el monto, escriba 98);;Integer
+P6585S2;Subsidio de transporte;Auxilio o subsidio de transporte?;;String
+P6585S2A1;Monto Subsidio de transporte;"¿cuánto? (si recibió  pero  no sabe el monto, escriba
+98)";;Integer
+P6585S3 ;Subsidio familiar;Subsidio  familiar?;;String
+P6585S3A1;Monto Subsidio familiar;¿cuánto recibió?  (si recibió pero  no sabe el monto, escriba 98);;Integer
+P6585S4;Subsidio educativo;Subsidio  educativo?;;String
+P6585S4A1;Monto Subsidio educativo;¿cuánto recibió?  (si recibió pero  no sabe el monto, escriba 98);;Integer
+P6750;Ingresos;"¿Cuál fue la ganancia neta o los honorarios netos de ...Esa actividad, negocio, profesión o finca, el mes pasado?
+";;Integer
+P6800;Horas de trabajo;31. ¿Cuántas horas a la semana trabaja normalmente.... en ese trabajo ? Horas;;Integer
+P6870;Cuántas personas tiene en la empresa;36. ¿Cuántas personas en total tiene la empresa, negocio, industria, oficina, firma, finca o sitio donde ..... trabaja? a. Trabaja solo b. 2 a 3 personas c. 4 a 5 personas d. 6 a 10 personas e. 11 a 19 personas f. 20 a 30 personas g. 31 a 50 personas h. 51 a 100 personas i. 101 o más personas;;String
+P6880;Lugar donde realiza el trabajo;37. Dónde realiza principalmente su trabajo: a. En esta vivienda b. En otras viviendas c En kiosco - caseta d En un vehículo e. De puerta en puerta f. Sitio al descubierto en la calle (ambulante y estacionario) g. Local fijo, oficina, fábrica, etc. h. En el campo o área rural, mar o río i. En una obra en construcción j. En una mina o cantera k. Otro,;;String
+P6920;Trabajador informal;¿está ... Cotizando actualmente a un fondo de pensiones?;;String
+P6930;A cuál fondo cotiza;40. ¿A cuál de los siguientes fondos cotiza actualmente: a. Fondo privado? b. ISS, Cajanal? c. Regímenes especiales (FFMM, Ecopetrol etc)? d. Fondo Subsidiado (Prosperar,etc.)?;;String
+P7020;Experiencia laboral;Antes del actual trabajo, ¿... Tuvo otro trabajo?;;String
+P7040;Cuenta con un segundo trabajo;Además de la ocupación principal, ¿... Tenía la semana pasada otro trabajo o negocio?;;String
+P7130;Se siente inconforme con el trabajo;¿... Desea cambiar el trabajo que  tiene actualmente?;;String
+P7140S1;Insatisfecho por desaprovechar competencias;Por cual o cuales de los siguientes motivos ...Desea cambiar de trabajo o empleo:;Para  mejorar la utilización de sus  capacidades o formación?;String
+P7140S3;Insatisfecho por el número de horas laborales;Desea trabajar menos horas?;;String
+P7140S2;Insatisfecho por ingresos;Desea mejorar sus ingresos?;;String
+P7150;Está buscando empleo;Durante las ultimas 4 semanas, ¿... Hizo diligencias para cambiar de trabajo?;;String
+oficio;¿qué hace ... En este trabajo?;;;Integer
+P6430;Tipo de empleado;En este trabajo ... Es:;En este trabajo…..es: a. Obrero  o empleado de empresa particular b. Obrero  o empleado del gobierno c. Empleado doméstico d. Trabajador por cuenta propia e. Patrón o empleador f. Trabajador familiar  sin remuneración g. Trabajador sin remuneración en empresas o negocios de otros  hogares h. Jornalero  o peón  i. Otro,;String
+inglabo;Ingresos laborales;;;Integer
+P4030S1A1;Estrato socio-económico;Estrato para tarifa;"4a. Estrato para tarifa  1 Bajo - Bajo 2 Bajo 3 Medio
+- Bajo 4 Medio 5 Medio - Alto 6 Alto 9 No sabe o cuenta con planta eléctrica 0 Conexión Pirata";String
+año;Año de la encuesta;;;Integer
+mes;Mes de la Encuesta;;;Integer
+p6760;¿a cuántos meses corresponde lo que recibió?;;;Integer
+P3147S1;Debido a la pandemia del COVID Está o estuvo enfermo(a) por el virus;"Debido a la situación que se presenta en el país con la pandemia de COVID – 19,
+ ¿Cuáles de las siguientes dificultades se le han presentado a …? Está o estuvo enfermo(a) por el virus";;Integer
+P3147S2;Debido a la pandemia del COVID Problemas para conseguir alimentos o productos de limpieza;"Debido a la situación que se presenta en el país con la pandemia de COVID – 19,
+ ¿Cuáles de las siguientes dificultades se le han presentado a …? Problemas para conseguir alimentos o productos de limpieza";;Integer
+P3147S3;Debido a la pandemia del COVID No ha podido realizar pagos de facturas y deudas;"Debido a la situación que se presenta en el país con la pandemia de COVID – 19,
+ ¿Cuáles de las siguientes dificultades se le han presentado a …? No ha podido realizar pagos de facturas y deudas";;Integer
+P3147S4;Debido a la pandemia del COVID Reducción de actividad económica y de ingresos;"Debido a la situación que se presenta en el país con la pandemia de COVID – 19,
+ ¿Cuáles de las siguientes dificultades se le han presentado a …? Reducción de actividad económica y de ingresos";;Integer
+P3147S5;Debido a la pandemia del COVID No ha podido ejercer, buscar trabajo o iniciar un negocio;"Debido a la situación que se presenta en el país con la pandemia de COVID – 19,
+ ¿Cuáles de las siguientes dificultades se le han presentado a …? No ha podido ejercer, buscar trabajo o iniciar un negocio";;Integer
+P3147S6;Debido a la pandemia del COVID Le suspendieron sin remuneración el contrato de trabajo;"Debido a la situación que se presenta en el país con la pandemia de COVID – 19,
+ ¿Cuáles de las siguientes dificultades se le han presentado a …? Le suspendieron sin remuneración el contrato de trabajo";;Integer
+P3147S7;Debido a la pandemia del COVID Perdió el trabajo o la fuente de ingresos;"Debido a la situación que se presenta en el país con la pandemia de COVID – 19,
+ ¿Cuáles de las siguientes dificultades se le han presentado a …? Perdió el trabajo o la fuente de ingresos";;Integer
+ESC;Años de esc;Años de escolaridad;;Integer
+Rama 4D;Ocupados por sector;;;Integer
+Sector;Sectores del Turismo;;;String
+Subsector;Subsectores del Turismo;;;String

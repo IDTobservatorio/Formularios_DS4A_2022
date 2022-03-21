@@ -1,0 +1,90 @@
+﻿Alias;Metric;Definition / Description;Traducción;tipo variable
+Activo;Active;Active vacation rentals are those that had at least one calendar day classified as reserved during the reporting period;Los alquileres de vacaciones activos son aquellos que tenían al menos un día calendario clasificado como reservado durante el período del informe;string
+ID_Host;Airbnb Host ID;Unique Airbnb host ID (https://www.airbnb.com/users/show/(hostID) will bring up the host profile;El ID de host exclusivo de Airbnb (https://www.airbnb.com/users/show/(hostID) mostrará el perfil del host;string
+;Airbnb Listing Main Image URL;Link to the main vacation rental listing image on Airbnb;Enlace a la imagen principal de la lista de alquileres vacacionales en Airbnb;string
+;Airbnb Listing URL;Link to the vacation rental listing on Airbnb;Enlace a la lista de alquileres de vacaciones en Airbnb;string
+Propiedad;Airbnb Property ID;Unique property ID assigned by Airbnb. http://airbnb.com/rooms/(propid) will bring up the Airbnb vacation rental listing;"ID de propiedad única asignada por Airbnb. 
+http://airbnb.com/rooms/(propid) mostrará la lista de alquileres de vacaciones de Airbnb";integer
+;Airbnb Superhost;True or False depending if the host is a Superhost on Airbnb;Verdadero o Falso dependiendo de si el anfitrión es un Superhost en Airbnb;string
+;Annual Revenue LTM (Native);Last twelve months (LTM) or total monthly listing revenue, depending on report viewed, in native host currency. Includes cleaning fees but not other additional fees;Los últimos doce meses (LTM) o los ingresos totales mensuales del listado, según el informe visto, en la moneda del host nativo. Incluye gastos de limpieza, pero no otros cargos adicionales;float
+;Annual Revenue LTM (USD);Last Twelve Months (LTM) or total monthly listing revenue, depending on report viewed, in USD. Includes cleaning fees but not other additional fees;Los últimos doce meses (LTM) o los ingresos totales mensuales del listado, según el informe visto, en USD. Incluye gastos de limpieza, pero no otros cargos adicionales;float
+Días_Disponibles;Available Days;Total number of listing calendar days that were classified as available during the reporting period. Each calendar day is classified as either A = available, B = blocked, or R = reserved.;Número total de días calendario de listado que se clasificaron como disponibles durante el período de informe. Cada día calendario se clasifica como A = disponible, B = bloqueado o R = reservado.;integer
+;Available Listings;Total number of listings whose calendars had at least one day classified as available or reserved during the reporting period;Número total de listados cuyos calendarios tenían al menos un día clasificados como disponibles o reservados durante el período del informe;integer
+Tarifa_Diaria_Nativ;Average Daily Rate (Native);Average Daily Rate (ADR) of booked nights in the native currency chosen by the host. ADR = Total Revenue / Booked Nights;Tarifa diaria promedio (ADR) de noches reservadas en la moneda nativa elegida por el anfitrión. ADR = Ingresos totales / Noches reservadas;float
+Tarifa_Diaria_USD;Average Daily Rate (USD);Average daily rate (ADR) of booked nights in USD. ADR = Total Revenue / Booked Nights;Tarifa diaria promedio (ADR) de noches reservadas en USD. ADR = Ingresos totales / Noches reservadas;float
+;Bathrooms;Number of bathrooms in a vacation rental listing;Número de baños en un listado de alquileres vacacionales.;float
+Habitaciones;Bedrooms;Number of bedrooms in a vacation rental listing;Número de habitaciones en un anuncio de alquiler de vacaciones.;integer
+Días_Bloqueados;Blocked Days;Total number of listing calendar days that were classified as blocked during the reporting period. Each calendar day is classified as either A = available, B = blocked, or R = reserved.;Número total de días calendario de listado que se clasificaron como bloqueados durante el período de informe. Cada día calendario se clasifica como A = disponible, B = bloqueado o R = reservado.;integer
+;Booked Date;Date that AirDNA picked up the booked reservation;Fecha en que AirDNA recogió la reserva reservada.;date
+;Booked Listings;Total number of listings that had at least one reservation during the reporting period;Número total de listados que tenían al menos una reserva durante el período de informe;integer
+;Calendar Last Updated;The last time the host updated their calendar;La última vez que el anfitrión actualizó su calendario.;date
+;Cancellation Policy;Cancellation policy for the vacation rental listing;Política de cancelación de la lista de alquileres vacacionales.;string
+;Check-in Time;Check-in time for the vacation rental listing;Hora de entrada para el listado de alquileres de vacaciones.;time
+;Checkout Time;Check-out time for the vacation rental listing;Hora de salida para el listado de alquileres de vacaciones.;time
+Ciudad;City;City where the vacation rental property is located;Ciudad donde se encuentra la propiedad de alquiler vacacional.;string
+;Cleaning Fee (Native);Cleaning fee charged per reservation in the native currency chosen by the host;Tarifa de limpieza cobrada por reserva en la moneda nativa elegida por el anfitrión;integer
+;Cleaning Fee (USD);Cleaning fee charged per reservation in US dollars;Coste de limpieza cobrado por reserva en dólares estadounidenses.;integer
+;Count Available Days LTM;Total number of listing calendar days that were classified as available for reservation, but not actually booked during the last twelve months;Número total de días calendario de listados que se clasificaron como disponibles para reserva, pero que no se reservaron en realidad durante los últimos doce meses;integer
+;Count Blocked Days LTM;Total number of listing calendar days that were classified as blocked from receiving a reservation during the last twelve months;Número total de días calendario de listados que se clasificaron como bloqueados para no recibir una reserva durante los últimos doce meses;integer
+;Count Reservation Days LTM;Total number of listing calendar days that were classified as reserved during the last twelve months;Número total de días calendario de cotización que se clasificaron como reservados durante los últimos doce meses;integer
+País;Country;Country where the vacation rental property is located;País donde se encuentra la propiedad de alquiler vacacional;string
+;Created Date;The date the vacation rental listing was created;La fecha en que se creó el anuncio de alquiler de vacaciones.;date
+;Currency (USD);Currency in US dollars;Moneda en dolares estadounidenses;string
+Moneda_Elegida;Currency Native;Native currency chosen by the host;Moneda nativa elegida por el anfitrión.;string
+;Date;Date in the listing's calendar;Fecha en el calendario del listado.;date
+;Demand (Listings);Total number of vacation rental listings that were booked during the reporting period;Número total de listados de alquileres de vacaciones que se reservaron durante el período del informe;integer
+;Demand (Nights);Total number of Booked Nights during the reporting period;Número total de noches reservadas durante el período de informe;integer
+;Entire Place;Type of listing in which guests have the whole home to themselves. This usually includes a bedroom, a bathroom, and a kitchen.;Tipo de listado en el que los huéspedes tienen toda la casa para ellos mismos. Esto usualmente incluye un dormitorio, un baño y una cocina.;string
+;Extra People Fee (Native);Extra people fee in native currency chosen by the host;Tarifa de personas extra en moneda nativa elegida por el anfitrión;integer
+;Extra People Fee (USD);Extra people fee in US dollars;Tarifa de personas extra en dólares estadounidenses;integer
+;HomeAway Listing Main Image URL;Link to the main vacation rental listing image on HomeAway;Enlace a la imagen principal de la lista de alquileres de vacaciones en HomeAway;string
+;HomeAway Listing URL;Link to the vacation rental listing on HomeAway;Enlace a la lista de alquiler de vacaciones en HomeAway;string
+;HomeAway Premier Partner;True or False depending if the HomeAway host is a Premier Partner;Verdadero o Falso dependiendo de si el host de HomeAway es un Socio Premier;string
+ID_HomeAway_Propiedad;HomeAway Property ID;Unique HomeAway property ID http://HomeAway.com/vacation-rental/p(propid) will bring up the HomeAway listing;El ID de propiedad único de HomeAway http://HomeAway.com/vacation-rental/p(propid) mostrará la lista de HomeAway;string
+ID_HomeAway_Administrador;HomeAway Property Manager;Unique property manager ID (when available);Identificación única del administrador de la propiedad (cuando esté disponible);string
+;Hotel Comparable Listings;Studio and one bedroom Entire Home vacation rentals. AirDNA believes these are the type of listings most likely to compete directly with hotels.;Estudio y una casa de vacaciones en casa de vacaciones. AirDNA cree que este es el tipo de listas con más probabilidades de competir directamente con los hoteles.;string
+;Instantbook Enabled;True = the vacation rental property can be booked without any host/guest communication;Cierto = la propiedad de alquiler vacacional se puede reservar sin ninguna comunicación de anfitrión / huésped;boolean
+;Last Scraped Date;The last date that our scrapers located the vacation rental listing. Each listing is scraped every three days.;La última fecha en que nuestros raspadores ubicaron el listado de alquileres de vacaciones. Cada listado se raspa cada tres días.;date
+Latitud;Latitude;Latitude of the vacation rental property;Latitud de la propiedad de alquiler vacacional;float
+;Listing Title;Title of the vacation rental listing;Título del anuncio de alquiler de vacaciones.;string
+Tipo_Alquiler;Listing Type;Three vacation rental listing types: Entire Home, Private Room, and Shared Room;Tres tipos de lista de alquileres de vacaciones: Casa completa, Habitación privada y Habitación compartida;string
+Longitud;Longitude;Longitude of the vacation rental property;Longitud de la propiedad de alquiler vacacional;float
+;LTM;Last Twelve Months;Últimos doce meses;float
+;Max Guests;The maximum number of guests the vacation rental property can accommodate;El número máximo de huéspedes que la propiedad de alquiler de vacaciones puede acomodar;integer
+Barrio;Metropolitan Statistical Area;Metropolitan statistical area of where the vacation rental property is located (US only);Área estadística metropolitana donde se encuentra la propiedad de alquiler vacacional (solo en EE. UU.);string
+;Minimum Stay;The default minimum night stay required by host;La estadía mínima por noche requerida por el anfitrión;integer
+Localidad;Neighborhood;Neighborhood where the vacation rental property is located, where available;Barrio donde se encuentra la propiedad de alquiler vacacional, donde esté disponible;string
+"Número_Reservas
+";Number of Reservations;Number of unique reservations during the last twelve months;Número de reservas únicas durante los últimos doce meses.;integer
+;Number of Reservations LTM;Number of unique reservations during the last twelve months. The length of a reservation may include one or more Booked Nights.;Número de reservas únicas durante los últimos doce meses. La duración de una reserva puede incluir una o más noches reservadas.;integer
+;Number of Photos;Number of photos in a vacation rental listing;Número de fotos en un anuncio de alquiler de vacaciones.;integer
+;Number of Reviews;Total number of vacation rental listing reviews;Número total de opiniones de alquileres de vacaciones;integer
+Tasa_Ocupación;Occupancy Rate;Occupancy Rate = Total Booked Days / (Total Booked Days + Total Available Days). Calculation only includes vacation rentals with at least one Booked Night.;Tasa de ocupación = Total de días reservados / (Total de días reservados + Total de días disponibles). El cálculo solo incluye alquileres de vacaciones con al menos una noche reservada.;float
+;Occupancy Rate LTM;Occupancy Rate = Count of Reservation Days / (Count of Reservation Days + Count of Available Days). Calculation excludes blocked days and months without a booking;Tasa de ocupación = Recuento de días de reserva / (Recuento de días de reserva + Recuento de días disponibles). Cálculo excluye días y meses bloqueados sin reserva;float
+;Overall Rating;Guest rating on a scale of 1-5;Evaluación de los clientes en una escala de 1 a 5.;float
+;Price (Native);Available or booked nightly rate in the native currency chosen by the host;Tarifa nocturna disponible o reservada en la moneda nativa elegida por el anfitrión;integer
+;Price (USD);Available or booked nightly rate in US dollars;Tarifa nocturna disponible o reservada en dólares estadounidenses.;integer
+;Private Room;Type of listing in which guests have their own private room for sleeping. Other areas could be shared.;Tipo de listado en el que los huéspedes tienen su propia habitación privada para dormir. Otras áreas podrían ser compartidas.;string
+ID_Anuncio;Property ID;Unique id assigned by AirDNA for each vacation rental listing;Identificación única asignada por AirDNA para cada anuncio de alquiler de vacaciones;string
+Tipo_Alojamiento;Property Type;Types of accommodations;Tipos de alojamiento;string
+;Published Monthly Rate (USD);The monthly price in USD if specified by the host;El precio mensual en USD si lo especifica el anfitrión.;integer
+;Published Nightly Rate (USD);Default nightly rate for a vacation rental listing in USD;Tarifa nocturna predeterminada para una lista de alquileres de vacaciones en USD;integer
+;Published Weekly Rate (USD);Default weekly rate for a vacation rental listing in USD;Tarifa semanal por defecto para una lista de alquileres de vacaciones en USD;integer
+Fecha_Corte;Reporting Month;07/01/2017 = vacation rental performance during July 2017;07/01/2017 = rendimiento de alquiler de vacaciones durante julio de 2017;date
+Días_Reservados;Reservation Days;Total number of listing calendar days that were classified as reserved during the reporting period. Each calendar day is classified as either A = available, B = blocked, or R = reserved.;Número total de días calendario de listado que se clasificaron como reservados durante el período de informe. Cada día calendario se clasifica como A = disponible, B = bloqueado o R = reservado.;integer
+;Reservation ID;This is an ID created by AirDNA to identify which reserved days pertain to a unique reservation;Este es un ID creado por AirDNA para identificar qué días reservados pertenecen a una reserva única;string
+;Response Rate;The percentage of new inquiries and reservation requests a host responds to (by either accepting/pre-approving or declining) within 24 hours;El porcentaje de nuevas consultas y solicitudes de reserva a las que un host responde (ya sea aceptando / aprobando previamente o rechazando) dentro de las 24 horas;float
+"Ingreso_Total_(Nativa)
+";Revenue (Native);Total revenue (in the native currency chosen by the host) earned during the reporting period. Includes the advertised price from the time of booking, as well as cleaning fees.;Los ingresos totales (en la moneda nativa elegida por el anfitrión) obtenidos durante el período del informe. Incluye el precio anunciado desde el momento de la reserva, así como los gastos de limpieza.;integer
+Ingreso_Total_(USD);Revenue (USD);Total revenue (in US dollars) earned during the reporting period. Includes the advertised price from the time of booking, as well as cleaning fees.;Los ingresos totales (en dólares estadounidenses) obtenidos durante el período del informe. Incluye el precio anunciado desde el momento de la reserva, así como los gastos de limpieza.;integer
+;RevPAR;Revenue Per Available Rental = ADR * Occupancy Rate;Ingresos por alquiler disponible = ADR * Tasa de ocupación;float
+;Room Nights;Supply (listing calendar days classified as available or reserved) multiplied by the number of bedrooms in each vacation rental listing;Suministro (listado de días calendario clasificados como disponibles o reservados) multiplicado por el número de habitaciones en cada anuncio de alquiler de vacaciones;integer
+Raspado_Mes;Scraped During Month;True = listing was scraped during the month;Verdadero = el listado fue raspado durante el mes;boolean
+;Security Deposit (Native);Security deposit in the native currency chosen by the host;Depósito de seguridad en la moneda nativa elegida por el anfitrión.;integer
+;Security Deposit (USD);Security deposit in US dollars;Depósito de seguridad en dólares estadounidenses;integer
+;Shared Room;Type of listing in which guests sleep in a bedroom or a common area that could be shared with others;Tipo de listado en el que los huéspedes duermen en un dormitorio o en un área común que podría compartirse con otros;string
+Estado;State;State where the vacation rental property is located;Estado donde se encuentra la propiedad de alquiler vacacional;string
+;Status;A = Available, B = Blocked, R = Reserved;A = Disponible, B = Bloqueado, R = Reservado;string
+;Supply (Listings);Total number of vacation rental listings;Número total de anuncios de alquiler de vacaciones;integer
+;Supply (Nights);Total number of Available Nights and Booked Nights from Active Listings;Número total de noches disponibles y noches reservadas de los listados activos;integer
+Código_Postal;Zipcode;Zip code where the vacation rental property is located;Código postal donde se encuentra la propiedad de alquiler de vacaciones;string

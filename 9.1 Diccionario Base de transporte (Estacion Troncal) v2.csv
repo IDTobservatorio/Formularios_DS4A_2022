@@ -1,0 +1,19 @@
+﻿variable;descripción;tipo variable
+Shape;tipo de objeto geografico;string
+objectid;Id estación;integer
+numero_estación;numero de la estación en el sistema;integer
+nombre_estación;nombre de la estación;string
+ubicación;direción de la estación;string
+troncal_estación;Troncal donde se encuentra ubicada la estación;string
+numero_vagones;Numero de  vagones con los que cuenta la estación;integer
+numero_accesos;Numero de accesos con los que cuenta la estación;integer
+biciestación;Dummy si es una biciestación;integer
+capacidad;Capacidad del biciparqueadero;integer
+tipo estación;"1. Cabecera
+2. Intermedia
+3. Intercambio
+4. Sencilla";integer
+biciparqueadero;Dummy si es una biciparqueadero;integer
+latitud;Georreferenciacion de la estación;float
+longitud;Georreferenciacion de la estación;float
+last_edi_1;fecha de la última actualización ;date

@@ -1,0 +1,14 @@
+﻿5.1 Diccionario de datos Base Registro Nacional de Turismo;;;;
+;;;;
+variable;descripción;tipo variable;;
+Corte;Fecha de corte de la información;date;;
+RNT;Número del Registro Nacional de Turismo ;integer;;
+CATEGORIA;Categoría del prestador Turístico ;string;;
+SUB_DESCRIPCION;Sub categoría del prestador turístico;string;;
+LOCALIDAD;Localidad donde se encuentra ubicado el prestador turístico;string;;
+BARRIO;Barrio  donde se encuentra ubicado el prestador turístico;string;;
+NUMERO_EMPLEADOS;Número de empleados reportados ante Cámara y Comercio de Bogotá;integer;;
+CANTIDAD_HABITACIONES;Número de Habitaciones con las que cuenta el establecimiento de alojamiento ;integer;;
+CANTIDAD_CAMAS;Número de Camas con las que cuenta el establecimiento de alojamiento ;integer;;
+LATITUD;Georreferenciación del prestador turístico ;float;;
+LONGITUD;;float;;

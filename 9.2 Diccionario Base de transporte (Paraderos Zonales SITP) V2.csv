@@ -1,0 +1,20 @@
+﻿variable;descripción;tipo variable
+Shape *;tipo de objeto geografico;string
+OBJECTID_1;Id Paradero_1;integer
+objectid;numero del paradero en el sistema;integer
+cenefa_par;"Corresponde al identificador unico sobre el cual se puede
+hacer la consulta a cada uno de los paraderos dentro del
+SITP";string
+mdoulo_par;"Dato que permite diferenciar las rutas asociadas a un
+paradero multiple, facilita la identificación del acceso de
+los usuarios en una misma parada.";string
+zona_parad;Zona donde se encuentra ubicada el paradero;integer
+nombre_par;;string
+direccion_;direción del Paradero;string
+localidad_;Localidad del Paradero;integer
+consola_pa;Contiene el texto que se presenta dentro de la unidad lógica consultada por el conductor del bus para conocer las paradas de la ruta;string
+panel_para;Contiene el texto que se representa en el display presentado dentro del bus para indicar a los usuario las próximas paradas de la ruta;string
+audio_para;Contiene el texto que se reproduce como audio al interior del bus para indicar la próxima parada;string
+Latitud;Georreferenciacion de la estación;float
+Longitud;Georreferenciacion de la estación;float
+;;

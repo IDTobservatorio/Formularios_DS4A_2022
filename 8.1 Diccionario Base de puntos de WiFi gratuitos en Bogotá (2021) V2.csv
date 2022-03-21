@@ -1,0 +1,8 @@
+﻿variable;descripción;tipo variable
+NOMBRE ZONA WIFI;Nombre del punto WiFi;string
+DIRECCION;Direcion del punto WiFi;string
+LONGITUD ;Georeferenciación del punto WiFi;float
+LATITUD;Georeferenciación del punto WiFi;float
+;;
+;;
+;;
